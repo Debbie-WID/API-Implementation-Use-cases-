@@ -29,11 +29,11 @@ Benefit: Removes SWIFT wait times and banking fees.
 Goal: Connect a desktop game to a mobile wallet securely. API Used: WalletConnect SDK (Sign Client)
 
 Workflow
-1.Initiation: Desktop app generates a QR code containing the session URI.
+Initiation: Desktop app generates a QR code containing the session URI.
 
-2.Handshake: User scans the QR code with their mobile wallet.
+Handshake: User scans the QR code with their mobile wallet.
 
-3.Session: A secure WebSocket channel is established for transaction signing.
+Session: A secure WebSocket channel is established for transaction signing.
 
 
 4.MetaMask: Decentralized Voting
@@ -41,11 +41,11 @@ Goal:Authenticate users for a DAO vote without traditional credentials.
 API Used:MetaMask Provider API (`window.ethereum`)
 
 Workflow
-1.Detection:The web app checks if the browser has an Ethereum provider.
+Detection:The web app checks if the browser has an Ethereum provider.
 
-2. Connection: The app calls `eth_requestAccounts` to prompt the user to connect.
+Connection: The app calls `eth_requestAccounts` to prompt the user to connect.
 
-3. Signing:The app uses `personal_sign` to cryptographically prove the vote authenticity.
+Signing:The app uses `personal_sign` to cryptographically prove the vote authenticity.
 ```javascript
 // Pseudo-code example for the documentation
 await window.ethereum.request({ method: 'eth_requestAccounts' });
