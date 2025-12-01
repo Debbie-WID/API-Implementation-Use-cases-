@@ -12,7 +12,7 @@ Workflow
 ```javascript
 // Pseudo-code example for the documentation
 await window.ethereum.request({ method: 'eth_requestAccounts' });
-const signature = await web3.eth.personal.sign("Vote: YES", userAdd;```
+const signature = await web3.eth.personal.sign("Vote: YES", userAdd;```)
 
 2.KuCoin: Automated DCA Bot
 Goal: Automate recurring crypto purchases for investment apps. API Used: KuCoin REST API (Spot Trading)
